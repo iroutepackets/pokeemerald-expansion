@@ -2549,6 +2549,7 @@ static const struct LevelUpMove sCloysterLevelUpLearnset[] = {
 
 #if P_FAMILY_GASTLY
 static const struct LevelUpMove sGastlyLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_SMOG), // Starter coverage against early Normal types.
     LEVEL_UP_MOVE( 1, MOVE_CONFUSE_RAY),
     LEVEL_UP_MOVE( 1, MOVE_LICK),
     LEVEL_UP_MOVE( 4, MOVE_HYPNOSIS),
@@ -9127,6 +9128,7 @@ static const struct LevelUpMove sBanetteLevelUpLearnset[] = {
 
 #if P_FAMILY_DUSKULL
 static const struct LevelUpMove sDuskullLevelUpLearnset[] = {
+    LEVEL_UP_MOVE( 1, MOVE_PURSUIT), // Starter coverage against early Normal types.
     LEVEL_UP_MOVE( 1, MOVE_LEER),
     LEVEL_UP_MOVE( 1, MOVE_ASTONISH),
     LEVEL_UP_MOVE( 4, MOVE_DISABLE),
